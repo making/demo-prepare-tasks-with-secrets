@@ -4,10 +4,10 @@ image_resource:
   source:
     repository: ubuntu
     tag: bionic
+inputs:
+- name: repo    
 run:
   path: bash
-  inputs:
-  - name: repo
   args: 
   - -c
   - |
