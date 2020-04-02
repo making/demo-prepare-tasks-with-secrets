@@ -5,7 +5,8 @@ image_resource:
     repository: ubuntu
     tag: bionic
 inputs:
-- name: repo    
+- name: repo
+params: {} 
 run:
   path: bash
   args: 
