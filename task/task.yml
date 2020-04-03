@@ -12,4 +12,4 @@ run:
   args: 
   - -c
   - |
-    cat repo/task/config.yml
+    cat repo/task/config.yml | om interpolate --vars-env OM_VARS 
